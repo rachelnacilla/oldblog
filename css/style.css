@@ -79,16 +79,14 @@ font-family: 'Fjalla One', sans-serif;
 #heroimage {
 
 
-	background-color: #fff;
+	background-color: #1977B1;
+	
 	color: #efefef;
 	padding: 20px;
 	text-align: center;
 	border-top: 10px solid #0394A3;
 	border-bottom: 10px solid #0394A3;
 	padding: 80px 0;
-	background-image: url('images/wollongong.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
 
 }
 
