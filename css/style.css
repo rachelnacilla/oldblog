@@ -36,6 +36,7 @@ a:hover {
 
 
 
+
 h1, h2, h3, h4 {
 
 font-family: 'Fjalla One', sans-serif;
@@ -93,16 +94,25 @@ font-family: 'Fjalla One', sans-serif;
 	border-bottom: 1px solid #efefef;
 }
 
+#heroimage a:hover {
+	border-bottom: none;
+	text-decoration: none;
+}
+
+
+
 #blurb {
 
 	width: 700px;
 	margin: 0 auto;
 	text-align: left; 
-	padding-top: 30px;
+	
 }
 
 
-
+h2.socials {
+	font-size: 1.5em;
+}
 
 /* portfolio */
 
@@ -177,19 +187,6 @@ span.specialty {
 	
 }
 
-#socials ul li a {
-	border-bottom: none;
-}
-
-#socials ul li a:hover {
-	color: #0394A3;
-}
-
-#socials ul {
-	margin-top: 20px;
-	margin-left: 0;
-	padding: 0; 
-}
 
 #footer {
 
