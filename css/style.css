@@ -168,7 +168,7 @@ span.specialty {
 	padding: 20px 0;
 }
 
-#social-media ul li {
+#socials ul li {
 	
 
 		display: inline;
@@ -177,15 +177,15 @@ span.specialty {
 	
 }
 
-#social-media ul li a {
+#socials ul li a {
 	border-bottom: none;
 }
 
-#social-media ul li a:hover {
+#socials ul li a:hover {
 	color: #0394A3;
 }
 
-#social-media ul {
+#socials ul {
 	margin-top: 20px;
 	margin-left: 0;
 	padding: 0; 
