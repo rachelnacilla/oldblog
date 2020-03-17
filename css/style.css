@@ -1,335 +1,231 @@
-html, body {
-	
-	height: 100%;
-	font-size: 1em;
-
+html,
+body {
+    height: 100%;
+    font-size: 1em;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 body {
-	
-color: #121212;
-font-family: 'Cantarell', sans-serif;
-font-size: 1em;
-line-height: 1.5;
-
-
-	
+    color: #121212;
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    letter-spacing: 0.05em;
 }
 
 img {
-
-	max-width: 100%;
-	border: 0;
+    max-width: 100%;
+    border: 0;
 }
 
-
-a:link {
-	color: #2a6d96;
-	text-decoration: none;
+a:link,
+a:visited {
+    color: #f26522;
+    text-decoration: none;
 }
-
 
 a:hover {
-	color: #000;
-	text-decoration: underline;
+    color: #000;
+    text-decoration: underline;
 }
 
-
-
-
-h1, h2, h3, h4 {
-
-font-family: 'Fjalla One', sans-serif;
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Oswald', sans-serif;
 }
 
 .btn {
-	border: 1px solid #fff; 
+    border: 1px solid #fff;
 }
-#navigation {
 
-	background-color: #fff;
-	padding-bottom: 20px;
-	text-transform: uppercase;
-	font-family: 'Cantarell', sans-serif;
-	
+#navigation {
+    background-color: #fff;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
 }
 
 #nav {
-	text-align: right;
-	text-transform: uppercase;
-	margin-bottom: 0;
-
-
-
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 0;
 }
 
 .navbar {
-	background-color: #fff;
-	border: #fff;
+    background-color: #fff;
+    border: #fff;
 }
 
 #logo {
-	padding-right: 20px;
+    padding-right: 20px;
 }
-
 
 
 /* hero image */
 
 #heroimage {
-
-
-	background-color: #1977B1;
-	
-	color: #efefef;
-	padding: 20px;
-	text-align: center;
-	border-top: 10px solid #0394A3;
-	border-bottom: 10px solid #0394A3;
-	padding: 80px 0;
-
+    background-color: #444;
+    background-image: url('../images/noise.png');
+    background-repeat: repeat;
+    color: #efefef;
+    padding: 20px;
+    text-align: center;
+    border-top: 10px solid #ccc;
+    border-bottom: 10px solid #ccc;
+    padding: 80px 0;
 }
 
 #heroimage a {
-	color: #efefef;
-	border-bottom: 1px solid #efefef;
+    color: #efefef;
+    border-bottom: 1px solid #efefef;
 }
 
 #heroimage a:hover {
-	border-bottom: none;
-	text-decoration: none;
+    border-bottom: none;
+    text-decoration: none;
 }
-
-
 
 #blurb {
-
-	width: 700px;
-	margin: 0 auto;
-	text-align: left; 
-	
+    width: 700px;
+    margin: 0 auto;
+    text-align: left;
 }
-
 
 h2.socials {
-	font-size: 1.5em;
+    font-size: 1.5em;
 }
+
 
 /* portfolio */
 
 #portfolio {
-
-	padding: 20px 0;
+    padding: 20px 0;
 }
 
-
-
 .portfolioitem {
-	margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 .portfolioitem .the_thumbnail {
-	width: 350px;
-	height: 200px; 
-	background-repeat: no-repeat;
-	background-size: cover;
-	
+    width: 350px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 img.portrait {
-	border-radius: 100%;
-	border: 10px #eee solid;
+    border-radius: 100%;
+    border: 10px #eee solid;
 }
 
-
 figcaption {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 span.specialty {
-
-	color: #555;
-	
-
+    color: #555;
 }
-
 
 
 /* about me */
 
 #aboutme {
-
-
-	background-color: #eee;
-	color: #333;
-	padding: 20px 0;
-
+    background-color: #eee;
+    color: #333;
+    padding: 20px 0;
 }
 
-
 #portrait {
-
-	border: 5px solid #fff;
-
-
+    border: 5px solid #fff;
 }
 
 #contact {
-
-	padding: 20px 0;
+    padding: 20px 0;
 }
 
 #socials ul li {
-	
-
-		display: inline;
-		list-style-type: none;
-		margin-right: 30px;
-	
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
 }
 
-
 #footer {
-
-	padding: 20px 0;
-	background-color: #1977B1;
-	color: #eee;
-	text-align: center;
-	border-top: 10px solid #0394A3;
-
-
+    padding: 20px 0;
+    background-color: #444;
+    background-image: url('../images/noise.png');
+    background-repeat: repeat;
+    color: #eee;
+    text-align: center;
+    border-top: 10px solid #ccc;
 }
 
 #footer a {
-	color: #fff;
+    color: #fff;
 }
-
 
 
 /* headers for portfolio items */
 
 #pagecontent {
-
-	padding: 50px;
-
-}
-
-
-#portfolioheader {
-
-	
-	background-color: #1977B1;
-	color: #fff;
-	border-bottom: 10px solid #0394A3;
-	border-top: 10px solid #0394A3;
-	text-align: center;
-	
-	
-}
-
-#portfolioheader h2 {
-
-	font-size: 2.5em;
-
+    padding: 50px;
 }
 
 
 /* media queries overrides */
 
+
 /********** Phone Landscape  **********/
-@media only screen
-and (max-width: 480px)
-and (orientation: landscape){
 
-
-	body {
-	
-		font-size: 1em;
-	
-	}
-	
-img {
-
-		width: 100%;
-	}
-
-	#blurb {
-		width: 100%; 
-	}
-	
-	
-	
+@media only screen and (max-width: 480px) and (orientation: landscape) {
+    body {
+        font-size: 1em;
+    }
+    img {
+        width: 100%;
+    }
+    #blurb {
+        width: 100%;
+    }
 }
+
 
 /********** Phone Portait  **********/
-@media only screen
-and (max-width: 480px)
-and (orientation: portrait){
-	
-	
-	 
-	
-	body {
-	
-		font-size: 1em;
-	
-	}
 
-	img {
-
-		width: 100%;
-	}
-	
-	#blurb {
-		width: 100%; 
-	}
-	
-
-	
-	
-	
-	
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+    body {
+        font-size: 1em;
+    }
+    img {
+        width: 100%;
+    }
+    #blurb {
+        width: 100%;
+    }
 }
+
 
 /********** Tablet Landscape **********/
-@media only screen
-and (max-width: 1024px)
-and (orientation: landscape){
-	body {
-	
-		font-size: 1em;
-	
-	}
-	
-img {
 
-		width: 100%;
-	}
-	
-	
-	 
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    body {
+        font-size: 1em;
+    }
+    img {
+        width: 100%;
+    }
 }
+
 
 /********** Tablet Portait  **********/
-@media only screen
-and (max-width: 1024px)
-and (orientation: portrait){
-	
-	
-	body {
-	
-		font-size: 1em;
-	
-	}
-	
-	img {
 
-		width: 100%;
-	}
-	
-	
-	 
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+    body {
+        font-size: 1em;
+    }
+    img {
+        width: 100%;
+    }
 }
-
-
-
