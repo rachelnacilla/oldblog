@@ -1,14 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 html,
 body {
     height: 100%;
     font-size: 1em;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 body {
     color: #121212;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 1em;
     line-height: 1.6;
     letter-spacing: 0.05em;
@@ -23,40 +23,63 @@ a:link,
 a:visited {
     color: #f26522;
     text-decoration: none;
+    border-bottom: 1px solid #f26522;
 }
 
 a:hover {
     color: #000;
-    text-decoration: underline;
+    border-bottom: 0;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Arima Madurai', cursive;
+    color: #008C9D;
 }
 
 .btn {
     border: 1px solid #fff;
 }
 
+#nav-background {
+    background-color: #F7FBFD;
+}
+
 #navigation {
-    background-color: #fff;
+    background-color: #F7FBFD;
     padding-bottom: 20px;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
 }
 
 #nav {
-    text-align: right;
+    text-align: left;
     text-transform: uppercase;
     margin-bottom: 0;
+    background-color: #F7FBFD;
+    color: #333333;
 }
 
 .navbar {
     background-color: #fff;
     border: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #222;
+    border-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #008C9D;
+    border-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a.on {
+    color: #008C9D;
+    ;
+    border-bottom: 0;
 }
 
 #logo {
@@ -67,20 +90,10 @@ h4 {
 /* hero image */
 
 #heroimage {
-    background-color: #444;
-    background-image: url('../images/noise.png');
-    background-repeat: repeat;
-    color: #efefef;
+    color: #333;
     padding: 20px;
     text-align: center;
-    border-top: 10px solid #ccc;
-    border-bottom: 10px solid #ccc;
     padding: 80px 0;
-}
-
-#heroimage a {
-    color: #efefef;
-    border-bottom: 1px solid #efefef;
 }
 
 #heroimage a:hover {
@@ -89,44 +102,12 @@ h4 {
 }
 
 #blurb {
-    width: 700px;
     margin: 0 auto;
     text-align: left;
 }
 
 h2.socials {
     font-size: 1.5em;
-}
-
-
-/* portfolio */
-
-#portfolio {
-    padding: 20px 0;
-}
-
-.portfolioitem {
-    margin-bottom: 1em;
-}
-
-.portfolioitem .the_thumbnail {
-    width: 350px;
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-img.portrait {
-    border-radius: 100%;
-    border: 10px #eee solid;
-}
-
-figcaption {
-    margin-top: 20px;
-}
-
-span.specialty {
-    color: #555;
 }
 
 
@@ -139,11 +120,11 @@ span.specialty {
 }
 
 #portrait {
-    border: 5px solid #fff;
+    border: 5px solid #F7FBFD;
 }
 
-#contact {
-    padding: 20px 0;
+img.portrait {
+    border-radius: 200px;
 }
 
 #socials ul li {
@@ -154,23 +135,41 @@ span.specialty {
 
 #footer {
     padding: 20px 0;
-    background-color: #444;
-    background-image: url('../images/noise.png');
-    background-repeat: repeat;
-    color: #eee;
     text-align: center;
-    border-top: 10px solid #ccc;
-}
-
-#footer a {
-    color: #fff;
+    font-size: 0.875em;
 }
 
 
-/* headers for portfolio items */
+/* projects page */
 
-#pagecontent {
-    padding: 50px;
+.project-img {
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-item {
+    margin-top: 30px;
+}
+
+h2.projects-heading {
+    margin-top: 0;
+}
+
+.project-blurb {
+    padding-left: 50px;
+}
+
+#code-the-gong {
+    background-image: url('../images/codethegong.png');
+}
+
+#photography {
+    background-image: url('../images/boracay.jpg');
+}
+
+#writing {
+    background-image: url('../images/medium.PNG');
 }
 
 
