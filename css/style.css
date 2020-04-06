@@ -172,6 +172,12 @@ h2.projects-heading {
     background-image: url('../images/medium.PNG');
 }
 
+span.now-subsection {
+    font-family: 'Arima Madurai', cursive;
+    color: #008C9D;
+    font-size: 1.5em;
+}
+
 
 /* media queries overrides */
 
