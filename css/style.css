@@ -140,44 +140,16 @@ img.portrait {
 }
 
 
-/* projects page */
-
-.project-img {
-    height: 200px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.project-item {
-    margin-top: 30px;
-}
-
-h2.projects-heading {
-    margin-top: 20px;
-}
-
-.project-blurb {
-    padding-left: 30px;
-}
-
-#code-the-gong {
-    background-image: url('../images/codethegong.png');
-}
-
-#photography {
-    background-image: url('../images/boracay.jpg');
-}
-
-#writing {
-    background-image: url('../images/medium.PNG');
-}
-
 span.now-subsection {
     font-family: 'Arima Madurai', cursive;
     color: #008C9D;
     font-size: 1.5em;
 }
 
+.normalpagecontainer {
+    width: 70%;
+    margin: 0 auto;
+}
 
 /* media queries overrides */
 
