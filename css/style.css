@@ -193,6 +193,8 @@ span.now-subsection {
     #blurb {
         width: 100%;
     }
+
+    
 }
 
 
@@ -210,5 +212,10 @@ span.now-subsection {
     }
     .project-img {
         height: 200px;
+    }
+
+    .normalpagecontainer {
+        width: 95%;
+        margin: 0 auto;
     }
 }
