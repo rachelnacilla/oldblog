@@ -1,0 +1,10 @@
+p><span class="now-subsection">As of 25th December 2020, I:</span></p>
+
+            <ul>
+                
+                <li>Am trying to wind down and relax after what has been an unusually difficult year.</li>
+                <li>Had been working in the office full time but the <a href="https://www.abc.net.au/news/2020-12-23/nsw-coronavirus-thousands-in-isolation-this-christmas/13007480" target="_blank">new COVID outbreak in Northern Sydney</a> sent me packing and back to working from home again.</li>
+                <li>Ended an era of teaching young people how to code with <a href="http://codethegong.com/" target="_blank">Code the Gong</a>. I will most certainly miss my Tuesday afternoons at the local youth centre.</li>
+                <li>In the process of completing my data science certification.</li>
+                
+            </ul>
