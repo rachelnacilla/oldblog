@@ -151,6 +151,21 @@ span.now-subsection {
     margin: 0 auto;
 }
 
+/* writing section */ 
+
+a.bloglink {
+    text-decoration: none;
+    color: #008C9D;
+    border-bottom: none;
+    font-style: italic;
+    
+}
+
+h2.blogHeading {
+    font-size: 1.5em;
+    padding-top: 1em;
+}
+
 /* media queries overrides */
 
 
