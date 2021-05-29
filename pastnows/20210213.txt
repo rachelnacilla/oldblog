@@ -1,0 +1,9 @@
+<p><span class="now-subsection">As of 13th February 2021, I:</span></p>
+
+            <ul>
+                
+                <li>Am in the process of completing my data analysis certification.</li>
+                <li>Finally upgraded my Macbook Pro. I'm hoping this one will last ten years like my other one did.</li>
+                <li>Am on the lookout for new opportunities. Please <a href="contact.html">contact me</a> if you have any leads.</li>
+                
+            </ul>
