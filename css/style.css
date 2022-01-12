@@ -166,6 +166,19 @@ h2.blogHeading {
     padding-top: 1em;
 }
 
+ul.topicTags {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul.topicTags li {
+    display: inline;
+    margin-right: 0.25em;
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 /* media queries overrides */
 
 
