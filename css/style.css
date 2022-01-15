@@ -157,28 +157,15 @@ a.bloglink {
     text-decoration: none;
     color: #008C9D;
     border-bottom: none;
-    font-style: italic;
+    
     
 }
 
-h2.blogHeading {
-    font-size: 1.5em;
-    padding-top: 1em;
+.blogheading {
+    font-style: italic;
 }
 
-ul.topicTags {
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 3em;
-}
 
-ul.topicTags li {
-    display: inline;
-    margin-right: 0.25em;
-    background-color: #eee;
-    padding: 5px;
-    border-radius: 5px;
-}
 
 /* media queries overrides */
 
